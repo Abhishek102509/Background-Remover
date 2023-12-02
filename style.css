@@ -1,0 +1,66 @@
+body {
+  background-image: linear-gradient(to bottom right, #f0f4c3, #b3e5fc);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 32px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.result{
+  margin: 20px
+}
+
+h1,
+.button {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+label,
+input[type="file"] {
+  transition: all 0.3s ease-in-out;
+}
+
+label:hover,
+input[type="file"]:hover {
+  color: #3e8e41;
+  cursor: pointer;
+}
+
+.button {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #a74caf;
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #f024df;
+}
+
+#result {
+  margin-top: 48px;
+  font-size: 24px;
+  line-height: 1.5;
+}
